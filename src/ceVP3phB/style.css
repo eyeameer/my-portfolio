@@ -1,0 +1,293 @@
+body { }
+.container-main{
+
+   margin-top:50px;
+}
+.iconss ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    
+}
+
+#foooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconss i{
+    background-color: #dcd9f8;
+    color:black;
+    padding-left:0px;
+    border: none;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    gap:-5px;
+    justify-content: center;
+    align-items: center;
+}
+.second-name{
+    color:#D2DAFF;
+}
+#toggler li{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#header{
+    background-color: #b0f2c2;
+}
+.navbar-brand{
+    background-color: #d8f8e1;
+}
+footer{
+    background-color: #dcd9f8;
+
+}
+.navbar-toggler{
+    background-color: #d8f8e1;
+}
+#toggler a{
+    /* background-color: #d8f8e1; */
+    background-color:#70F1D5;
+    color:black;
+  
+}
+#root{
+    display: flex;
+}
+main{
+    flex-grow:1;
+
+}
+nav,footer{
+    display: flex;
+}
+nav,footer{
+    position: sticky;
+}
+main{
+    margin-top: 100px;
+    
+    margin-bottom: 100px;
+}
+.project{
+    margin-top: 80px;
+   
+    margin-bottom: 100px;
+}
+#skills{
+    display: flex;
+    gap:50px;
+
+    align-items: center;
+}
+/* .container{
+    margin-left:60px;
+} */
+#row_2{
+    margin-left:-20px;
+}
+#AboutMe{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.AboutMe_p{
+    letter-spacing: 1.5px;
+}
+.sp_para{
+    color:#957DAD;
+    margin-bottom: -20px;
+}
+#hobbiesTab li, #languagesTab li{
+    color:#957DAD;
+}
+
+.socials{
+    margin-left: 12px;
+    display: flex;
+    gap:12px;
+}
+#comments{
+    height: 70px;
+}
+#toggler button{
+    padding:0;
+    margin-left: 10px;
+ 
+    
+}
+form button{
+    background-color: #54B8F3;
+    
+}
+#tabs{
+    list-style-type: upper-roman;
+   padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+
+    /* basic modern patch */
+
+}
+body{
+    overflow-x: hidden;
+}
+.headerXmark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#xmark{
+    height: 20px;
+    width:20px;
+    
+}
+#card{
+    width:95px;
+    height: 120px;
+    white-space: nowrap;
+}
+#jsImg{
+    margin-left:-3px;
+}
+#jsT{
+    margin-left:-18px;
+}
+#reactImg{
+    margin-left:-6px;
+}
+#reactT{
+    margin-left:-4px;
+}
+#bootImg{
+    margin-left:-8px;
+}
+#bootT{
+    margin-left:-12px;
+}
+#sassImg{
+    margin-left:-8px;
+}
+#sassT{}
+#nodeImg{
+    margin-left:-12px;
+
+}
+#nodeT{
+    margin-left:-2px;
+}
+#myFoto{
+    height: 350px;
+    width: 250px;
+}
+#myCard{
+      /* width: 295px; */
+      width: 400px;
+      
+}
+
+
+.darkBody{
+    /* background-color: black; */
+    /* color:white; */
+}
+body{
+    /* background-color: black; */
+}
+ #darkmyCard{
+    background-color: black;
+    border-color: white;
+    width: 400px;
+      
+}
+
+
+
+#darkIcons{
+    color: white;
+}
+#darkCard{
+    width:95px !important;
+    height: 120px !important;
+    white-space: nowrap !important;
+    color:black !important;
+}
+#darkFooter{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#darkProject{
+    background-color: black !important;
+    color:white !important;
+    border-color: white !important;
+}
+#darkProject .card-img-top{
+    border:2px solid  #b0f2c2;
+    background-color: rgb(222, 222, 222);
+   
+}
+#darkModal .modal-header{
+    background-color: black !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+#darkModal .modal-header button{
+    background-color: black !important;
+    color: white !important;
+    border-color: white !important;
+    border:1px solid white;
+}
+
+#darkModal .modal-body{
+    background-color: black !important;
+color: white !important;
+
+
+
+}
+#darkModal .modal-body a{
+    background-color: black !important;
+    color: white !important;
+    border:1px solid white !important;
+}
+#darkModal .modal-footer{
+    background-color: black !important;
+color: white !important;
+}
+#darkModal{
+    border:1px solid white !important;
+}
+.darkLightToggle{
+    
+    background-color: #d8f8e1;
+    width: 40px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+#darkSocialIcons i{
+color: black !important;
+/* background-color: black; */
+border:0px solid red !important;
+}
+#lightSocialIcons a{
+
+    background-color: black;
+    color: white;
+
+}
+#lightSocialIcons i{
+
+}
